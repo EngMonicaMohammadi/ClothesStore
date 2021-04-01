@@ -20,10 +20,10 @@ export default function SearchScreen(){
                 setAllProducts(data);
             })
         })
-    })
+    })        
     const searchProducts = (text) => {
         const filterText = text.toLowerCase();
-        const newProducts = allProducts.filter((product) => {
+        const newProducts = allProducts.filter((product) => {       
             const item = product.name.toLowerCase();
             return item.indexOf(filterText) > -1;
         })
