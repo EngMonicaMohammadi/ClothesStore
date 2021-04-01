@@ -27,12 +27,17 @@ export default function App() {
              headerRight:()=> (
               <TouchableOpacity style={{paddingRight:20}} onPress={()=> navigation.navigate('SearchScreen')}>
                 <Text>
+                                                                                         
                   <MaterialIcons name="search" size={24} color="black" />
                 </Text>
               </TouchableOpacity>
              ),
+    
              headerLeft:()=> (
               <TouchableOpacity style={{marginLeft:20}} onPress={() => navigation.navigate('Nav')}>
+  
+  
+  
                 <Text>
                   <MaterialIcons name="menu" size={24} color="black" />
                 </Text>
